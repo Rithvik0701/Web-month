@@ -1,0 +1,140 @@
+<p>Hello Everyone this is my first form.This type of forms can be useful in e commerce sites.
+<form>
+  <table>
+  <tr>
+    <th colspan="2">
+     <p> Personal Information</p><br></th>
+  <ul>
+      <tr>
+        <td><li><label for="firstname">Name:</label></td>
+ <td> <input type="text" id="firstname" placeholder="Jonny" >
+   <br></li></td></tr>
+    <tr>
+      <td>
+        <li><label for="Eamil">Email:</label></td>
+ <td> <input type="text" id="Email" placeholder="acb@xyz.com">
+    <br></li></td>
+  </tr>
+<tr>
+  <td>
+    <li><label for="phnum">Phone number</label></td>
+  <td><input type="tel" id="phnum" placeholder="10 Digit number"></td>
+</tr>
+    <br></li></ul>
+  </table><br>
+<hr>
+  
+<table>
+  <tr>
+    <th colspan="2">
+     <p> Delhivery Information</p><br></th>
+  <ul>
+      <tr>
+        <td><li><label for="add">Address</label></td>
+ <td > <input type="text" id="add" placeholder="Permanent Adress">
+   <br></li></td></tr>
+    <tr>
+      <td>
+        <li><label for="pincode">Pin Code</label></td>
+ <td> <input type="text" id="pincode" placeholder="000000">
+    <br></li></td>
+  </tr>
+<tr>
+  <td>
+    <li><label for="country">Country</label></td>
+  <td><input type="text" id="country" placeholder="country"></td>
+</tr>
+    <br></li></ul>
+
+  </table>
+<br>
+<hr>
+<table>
+  <tr>
+    <th colspan="2">
+     <p> Payment</p><br></th>
+  
+  <ul>
+    <tr>
+      <td><input type="radio" id="visa" name="method" value="visa">
+  <label for="visa">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Visa.svg" alt="visa" height="50" width ="50"></label><br></td>
+      <td><input type="radio" id="mastercard" name="method" value="mastercard">
+  <label for="mastercard"><img src="https://upload.wikimedia.org/wikipedia/commons/8/88/MasterCard_early_1990s_logo.svg" alt="Master Card" height="50" width ="70"></label><br></td>
+      <td><input type="radio" id="visa" name="method" value="maestro">
+  <label for="maestro"><img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Maestro_2016.svg" alt="maestro" height="50" width ="70"></label><br></td>
+    </tr>
+      <tr>
+        <td><li><label for="cardnum">Card number</label></td>
+ <td > <input type="text" id="cardnum" placeholder="1234 5678 1234 5678">
+   <br></li></td></tr>
+    <tr>
+      <td>
+        <li><label for="code">Security Code</label></td>
+ <td> <input type="text" id="code"placeholder="123">
+    <br></li></td>
+  </tr>
+<tr>
+  <td>
+    <li><label for="namecard">Name on card</label></td>
+  <td><input type="text" id="name card" placeholder="Aasf"></td>
+</tr>
+    <br></li></ul>
+<tr>
+      <td>
+        <li><label for="Amount">Amount</label></td>
+ <td> <input type="text" id="Amount" placeholder="123456">
+    <br></li></td>
+  </tr>
+
+  </table>
+<br>
+<hr>
+<table>
+  <tr>
+    <th colspan="2">
+     <p> Feedback</p><br></th>
+  
+  <ul>
+    <tr>
+      <td><input type="radio" id="5s" name="star" value="5 star">
+  <label for="5s">⭐⭐⭐⭐⭐</label><br></td>
+      
+      <td><input type="radio" id="s" name="star" value="4 star">
+  <label for="4s">
+    ⭐⭐⭐⭐</label><br></td>
+      <td><input type="radio" id="3s" name="star" value="3 star">
+  <label for="3s">⭐⭐⭐</label><br></td>
+  <td><input type="radio" id="2s" name="star" value="2 star">
+  <label for="2s">⭐⭐</label><br></td>
+      <td><input type="radio" id="1s" name="star" value="1 star">
+  <label for="1s">⭐</label><br></td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td>
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1">Everything is awesome</label><br></td></tr>
+        <tr><td >
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1">Can be more attractive</label><br></td>
+          </tr>
+    <tr>
+<td><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+      <label for="vehicle1">Can be more intresting</label><br></td></tr>
+        <tr>
+          <td colspan="2">
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1">Improvement is needed in delivery</label><br></td></tr>
+  <tr>
+        <td><li><label for="cardnum">Remarks</label></td>
+ <td > <input type="text" id="cardnum" value="">
+   <br></li></td></tr>
+  </table>
+<br>
+
+
+  </form>
+      <input type="submit" value="Submit">
+<!--   <input type="button" onclick="Your form is submitted" value="Submit"> -->
